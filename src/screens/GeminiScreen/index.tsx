@@ -21,7 +21,7 @@ function GeminiScreen() {
 
     setLoading(true);
     try {
-      const apiKey = 'AIzaSyDY3ULeZ2DZDCuhKBZqVcADpcpsu_WlyWg';
+      const apiKey = 'SUA_API_KEY';
       const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`;
 
       const requestBody = {
